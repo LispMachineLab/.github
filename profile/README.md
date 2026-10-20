@@ -27,4 +27,4 @@ git clone https://github.com/LispMachineLab/lispm-desktop ~/lispm-desktop
 emacs --init-directory ~/lispm-desktop
 ```
 
-All three are free software, under the GNU GPL, version 3 or later.
+All three are free software, under the GNU AGPL, version 3 or later.
