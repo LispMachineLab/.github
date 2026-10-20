@@ -10,7 +10,17 @@ LispM is three projects:
 - **[lispm-desktop](https://github.com/LispMachineLab/lispm-desktop)**, LispM Desktop: Emacs laid out as Mac OS 9's desktop, a workspace for agents, ready from the first start.
 - **[lispm-browser](https://github.com/LispMachineLab/lispm-browser)**, LispM Browser: a WebKit browser in Emacs, with tabs, keyboard hints and Chrome extensions.
 
-Each stands on its own. LispM Desktop brings them together, the agents in its sidebar and the browser as one of its applications, and installs both at its first start:
+Each stands on its own. LispM Desktop brings them together, the agents in its sidebar and the browser as one of its applications.
+
+**Get LispM for Mac.** LispM.app is LispM Desktop with Emacs inside it: you need not know Emacs to begin. On macOS 11 or later, open Terminal and paste:
+
+```sh
+curl -fsSL https://lispmachinelab.github.io/install.sh | sh
+```
+
+LispM opens a few minutes later, and stays in Applications; run the line again to update ([what it does](https://github.com/LispMachineLab/lispm-desktop/blob/main/install.sh)).
+
+**Already use Emacs?** Run LispM Desktop in your own Emacs 30.1 or later, which installs the other two at its first start:
 
 ```sh
 git clone https://github.com/LispMachineLab/lispm-desktop ~/lispm-desktop
