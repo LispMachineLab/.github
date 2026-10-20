@@ -2,7 +2,7 @@
 
 <h3 align="center">LispM — a Lisp Machine for agents</h3>
 
-The Lisp Machine was an environment where everything was a live Lisp object, and the editor and the system were one. Back then its inhabitants were programs; LispM makes room in it for agents. They run inside Emacs rather than beside it: their conversations are org documents that are also their context, their tools are Elisp functions, their approvals org TODO states, and their memory org files under git.
+The Lisp Machine was an environment where everything was a live Lisp object, and the editor and the system were one. Back then its inhabitants were programs. Emacs kept that way of working, if not the machine; LispM makes room in it for agents. They run inside Emacs rather than beside it: their conversations are org documents that are also their context, their tools are Elisp functions, their approvals org TODO states, and their memory org files under git.
 
 LispM is three projects:
 
