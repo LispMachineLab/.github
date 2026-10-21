@@ -15,7 +15,7 @@ Each stands on its own. LispM Desktop brings them together, the agents in its si
 **Get LispM for Mac.** LispM.app is LispM Desktop with Emacs inside it: you need not know Emacs to begin. On macOS 11 or later, open Terminal and paste:
 
 ```sh
-curl -fsSL https://lispmachinelab.github.io/install.sh | sh
+curl -fsSL https://lispm.ai/install.sh | sh
 ```
 
 LispM opens a few minutes later, and stays in Applications; run the line again to update ([what it does](https://github.com/LispMachineLab/lispm-desktop/blob/main/install.sh)).
