@@ -2,12 +2,12 @@
 
 <h3 align="center">LispM — a Lisp Machine for agents</h3>
 
-The Lisp Machine was an environment where everything was a live Lisp object, and the editor and the system were one. Back then its inhabitants were programs. Emacs kept that way of working, if not the machine; LispM makes room in it for agents. They run inside Emacs rather than beside it: their conversations are org documents that are also their context, their tools are Elisp functions, their approvals org TODO states, and their memory org files under git.
+**LispM is an AI agent harness built on GNU Emacs and the ideas of the Lisp Machine, fifty years in the making.** On a Lisp Machine everything was a live Lisp object, and the editor and the system were one; its inhabitants were programs. Emacs, born beside it at MIT in 1976, has kept that way of working for fifty years, if not the machine. LispM makes room in it for agents, the harness modern AI needs. They run inside Emacs rather than beside it: their conversations are org documents that are also their context, their tools are Elisp functions, their approvals org TODO states, and their memory org files under git. More at [lispm.ai](https://lispm.ai/).
 
 LispM is three projects:
 
 - **[lispm-agent](https://github.com/LispMachineLab/lispm-agent)**, LispM Agent: AI agents that run inside Emacs, their conversations org documents, their tools Elisp.
-- **[lispm-desktop](https://github.com/LispMachineLab/lispm-desktop)**, LispM Desktop: Emacs laid out as Mac OS 9's desktop, a workspace for agents, ready from the first start.
+- **[lispm-desktop](https://github.com/LispMachineLab/lispm-desktop)**, LispM Desktop: an Emacs distribution built around LispM Agent, laid out as a classic-style desktop, a workspace for agents, ready from the first start.
 - **[lispm-browser](https://github.com/LispMachineLab/lispm-browser)**, LispM Browser: a WebKit browser in Emacs, with tabs, keyboard hints and Chrome extensions.
 
 Each stands on its own. LispM Desktop brings them together, the agents in its sidebar and the browser as one of its applications.
